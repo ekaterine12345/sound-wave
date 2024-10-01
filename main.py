@@ -3,7 +3,7 @@ from scipy.io import wavfile
 
 
 class SoundWaveFactory:
-    SAMPLING_RATE = 44100  # Standard audio sampling rate
+    SAMPLING_RATE = 44100   # Standard audio sampling rate
     MAX_AMPLITUDE = 2 ** 13
     NOTES = {
         '0': 0, 'e0': 20.60172, 'f0': 21.82676, 'f#0': 23.12465, 'g0': 24.49971, 'g#0': 25.95654, 'a0': 27.50000,
